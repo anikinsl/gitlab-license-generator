@@ -43,7 +43,6 @@ services:
     environment:
       GITLAB_OMNIBUS_CONFIG: |
         external_url 'https://my-gitlab.domain.my'
-        letsencrypt['enable'] = false
         gitlab_rails['initial_license_file'] = "/tmp/Gitlab.gitlab-license"
 
     ports:
