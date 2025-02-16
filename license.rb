@@ -1,9 +1,9 @@
 require 'openssl'
 require 'gitlab/license'
 
-name    = "anikinsl"
-company = "anikinsl"
-email   = "anikinsl@gmail.com"
+name    = "My Name"
+company = "My Org"
+email   = "mymail@example.com"
 
 if ARGV.length == 3
     name    = "#{ARGV[0]}"
